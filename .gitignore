@@ -1,0 +1,22 @@
+# data & outputs
+data/*.csv
+data/*.xlsx
+data/raw/*
+data/interim/*
+data/processed/*
+figures/*
+reports/*.html
+reports/*.pdf
+
+# notebooks noise
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+*.log
+
+# envs & OS
+.env
+.venv/
+venv/
+__pycache__/
+.DS_Store
+Thumbs.db
